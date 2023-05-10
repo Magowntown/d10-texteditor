@@ -14,10 +14,10 @@
             <div class="flex justify-center py-4">
                 <button id="boldBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
-                    py-2 px-4 rounded-l-md" onclick="document.getElementById('textBox').style.fontWeight = 'bold'">Bold</button>
+                    py-2 px-4 rounded-l-md" onclick="boldTgl()">Bold</button>
                 <button id="italicBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
-                    py-2 px-4" onclick="document.getElementById('textBox').style.fontStyle = 'italic'">Italic</button>
+                    py-2 px-4" onclick="italicTgl()">Italic</button>
                 <button id="leftAlignBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
                     py-2 px-4" onclick="document.getElementById('textBox').style.textAlign = 'left'">Align Left</button>
@@ -29,16 +29,16 @@
                     py-2 px-4" onclick="document.getElementById('textBox').style.textAlign = 'right'">Align Right</button>
                 <button id="uppsercaseBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
-                    py-2 px-4" onclick="document.getElementById('textBox').style.textTransform = 'uppercase'">Uppercase</button>
+                    py-2 px-4" onclick="upperTgl()">Uppercase</button>
                 <button id="lowercaseBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
-                    py-2 px-4" onclick="document.getElementById('textBox').style.textTransform = 'lowercase'">Lowercase</button>
+                    py-2 px-4" onclick="lowerTgl()">Lowercase</button>
                 <button id="capitalizeBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
-                    py-2 px-4" onclick="document.getElementById('textBox').style.textTransform = 'capitalize'">Capitalize</button>
+                    py-2 px-4" onclick="capitalizeTgl()">Capitalize</button>
                 <button id="clearBtn" class="bg-gray-300 hover:bg-gray-400
                     text-gray-800 font-bold
-                    py-2 px-4 rounded-r-md" onclick="document.getElementById('textBox').value = '', document.getElementById('textBox').reset()">Clear</button>
+                    py-2 px-4 rounded-r-md" onclick="clearTgl()">Clear</button>
             </div>
                 <form id="form">
                     <label for="textBox">Text Box</label>
